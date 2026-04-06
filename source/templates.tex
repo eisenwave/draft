@@ -6872,7 +6872,7 @@ from the function to which they belong.
 
 \pnum
 Other than as specified above,
-if a templated function
+when a templated function
 \tcode{f}
 is called in a way that requires a default argument to be used,
 the dependent names are looked up, the semantics constraints are checked,
@@ -6915,7 +6915,7 @@ Other than as specified above,
 the separately instantiated constructs
 of a specialization of a templated function
 are instantiated only when needed\iref{except.spec,dcl.contract.func}.
-When such a construct is needed but has not yet been instantiated,
+When such a construct is instantiated,
 the dependent names are looked up,
 the semantics constraints are checked, and
 the instantiation of any template used in the construct
